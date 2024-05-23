@@ -10,11 +10,23 @@ background-image: url(tijolo.jpg);
 padding: 0px;
 
 }
+head{
+  *{
+    margin: 0;
+  }
+  @media (max-width: 800px){
+    section {
+      width: 700px;
+    }
+  }
+}
 body{
 color: rgba(255, 255, 255, 0.594); 
 padding: 0;
 font: white;
 text-align: center;
+width: 100%;
+justify-content: space-around;
 }
 nav ul{
   list-style: none;
@@ -34,6 +46,17 @@ nav ul{
   scroll-behavior: smooth;
   scroll-padding-top: 2rem;
   transition: .3s ease;
+  *{
+    margin: 0;
+  }
+  @media (max-width: 700px){
+    section {
+      width: 700px;
+    }
+    .nav{
+      display: flex;
+    }
+  }
   a{
     color:rgb(248, 211, 162);
   }
@@ -170,6 +193,7 @@ img{
     width: 50px;
     height: 50px;
     text-align: center;
+    
   }
   a{
    
@@ -201,13 +225,10 @@ a:hover{
          -webkit-transform: scale(1.4);
          transform: scale(1.4);
 } 
-  }
-
+}
 footer{
-  background-color: #ffffff;
+  background-color:none;
   color: #000000;
-  text-shadow: 0px 0px 0px;
-  position: fixed;
 }
   h1{
     font: 20pt Copperplate Gothic;
@@ -255,4 +276,11 @@ a:hover{
   cursor: pointer;
   border-radius: 16px;
   
+}
+@media screen and (max-width: 768px){
+  .body{
+   width: 100%;
+   flex-direction: column;
+
+  }
 }

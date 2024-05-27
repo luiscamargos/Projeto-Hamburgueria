@@ -9,12 +9,25 @@ html{
 background-image: url(tijolo.jpg);
 padding: 0px;
 
-}
+}S
 body{
 color: rgba(255, 255, 255, 0.594); 
 padding: 0;
 font: white;
 text-align: center;
+width: 100%;
+justify-content: space-around;
+@media screen and(max-width: 768px) {
+      
+}
+  body{
+    background-color: saddlebrown;
+  }
+}
+@media screen and (max-width: 600px){
+body{
+  background-color: aliceblue;
+}
 }
 nav ul{
   list-style: none;
@@ -34,6 +47,12 @@ nav ul{
   scroll-behavior: smooth;
   scroll-padding-top: 2rem;
   transition: .3s ease;
+  @media screen and (max-width: 768px){
+    section, aside{
+      width: 100%;
+    }
+  
+    }
   a{
     color:rgb(248, 211, 162);
   }
@@ -61,6 +80,12 @@ li{
       cursor: pointer;
       border-radius: 8px;
       transition: background-color all 0.9s ease;
+      @media screen and (max-width: 768px){
+        section, aside{
+          width: 100%;
+        }
+      
+        }
       
 }
 .li:hover{
@@ -170,6 +195,7 @@ img{
     width: 50px;
     height: 50px;
     text-align: center;
+    
   }
   a{
    
@@ -201,13 +227,10 @@ a:hover{
          -webkit-transform: scale(1.4);
          transform: scale(1.4);
 } 
-  }
-
+}
 footer{
-  background-color: #ffffff;
+  background-color:none;
   color: #000000;
-  text-shadow: 0px 0px 0px;
-  position: fixed;
 }
   h1{
     font: 20pt Copperplate Gothic;
@@ -233,6 +256,7 @@ a{
   border-radius: 8px;
   transition: all 0.9s;
   cursor: pointer;
+  
  
 }
 a:hover{
@@ -256,4 +280,60 @@ a:hover{
   border-radius: 16px;
   
 }
-
+@media screen and (max-width: 768px){
+  section, aside{
+    width: 100%;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 600px){
+  body{
+    text-rendering: auto;
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  #inicio{
+    text-align: center;
+  align-items: center;
+    img{
+      width: 80%;
+      height: 100%;
+      display: flex;
+    }
+  }
+  nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 0.1rem;
+    position: fixed;
+    height: 5rem;
+    width: 100%;
+    transition: all 0.5;
+    cursor: pointer;
+    font: 15pt Impact, fantasy;
+    box-sizing: border-box;
+    font-family: Saira, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    }
+#sobre{
+  text-align: center;
+  display: flex;
+  img{
+    width: 0%;
+    height: 0%;
+  
+  background-image{
+    width: 400px;
+  }
+}
+}
+a{
+  font: 7pt normal Arial;
+}
+}
+  

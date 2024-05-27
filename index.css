@@ -326,11 +326,7 @@ a:hover{
   img{
     width: 0%;
     height: 0%;
-  
-  background-image{
-    width: 400px;
   }
-}
 }
 a{
   font: 7pt normal Arial;

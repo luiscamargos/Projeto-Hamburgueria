@@ -1,5 +1,4 @@
 
-window.alert('SEJAM BEM VINDOS')
 
 
 window.revelar = ScrollReveal({reset:true})

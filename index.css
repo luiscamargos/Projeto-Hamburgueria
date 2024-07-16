@@ -152,13 +152,13 @@ section{
   background-color: #ffffff;
         padding: 15px;
         color: black;
-        font: 15pt American Typewriter, serif;
-        font-size: 15pt;
+        font: 10pt American Typewriter, serif;
+        font-size: 10pt;
 
          h1{
        
           text-align: left;
-          font: 15pt American Typewriter, serif;
+          font: 10pt American Typewriter, serif;
           font-size: 15pt;
           display: flex;
          gap: 15rem;
@@ -172,7 +172,7 @@ section{
          
          h2{
           text-align: right;
-          font: 15pt American Typewriter, serif;
+          font: 10pt American Typewriter, serif;
           font-size: 15pt;
           display: flex;
           gap: 5rem;
@@ -186,8 +186,8 @@ section{
          }
          h3{
             text-align: left;
-            font: 15pt American Typewriter, serif;
-            font-size: 15pt;
+            font: 10pt American Typewriter, serif;
+            font-size: 10pt;
             display: flex;
            gap: 15rem;
             img{

@@ -6,7 +6,7 @@ html{
   list-style: none;
   display: table-cell;
   vertical-align: bottom;
-  background-image: url(tijolo.jpg);
+  background-color: white;
   padding: 0px;
 }
 /*.efeito-txt, .efeito-img{
@@ -159,7 +159,7 @@ section{
        
           text-align: left;
           font: 10pt American Typewriter, serif;
-          font-size: 15pt;
+          font-size: 10pt;
           display: flex;
          gap: 15rem;
           img{
@@ -173,7 +173,7 @@ section{
          h2{
           text-align: right;
           font: 10pt American Typewriter, serif;
-          font-size: 15pt;
+          font-size: 10pt;
           display: flex;
           gap: 5rem;
           padding: 1rem;
@@ -198,8 +198,8 @@ section{
              }
              h4{
                 text-align: right;
-                font: 15pt American Typewriter, serif;
-                font-size: 15pt;
+                font: 10pt American Typewriter, serif;
+                font-size: 10pt;
                 display: flex;
                 gap: 5rem;
                 padding: 1rem;

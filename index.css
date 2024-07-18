@@ -152,14 +152,14 @@ section{
   background-color: #ffffff;
         padding: 15px;
         color: black;
-        font: 10pt American Typewriter, serif;
-        font-size: 10pt;
+        font: 8pt American Typewriter, serif;
+       
 
          h1{
        
           text-align: left;
-          font: 10pt American Typewriter, serif;
-          font-size: 10pt;
+          font: 8pt American Typewriter, serif;
+         
           display: flex;
          gap: 15rem;
           img{
@@ -172,8 +172,8 @@ section{
          
          h2{
           text-align: right;
-          font: 10pt American Typewriter, serif;
-          font-size: 10pt;
+          font: 8pt American Typewriter, serif;
+          
           display: flex;
           gap: 5rem;
           padding: 1rem;
@@ -186,8 +186,8 @@ section{
          }
          h3{
             text-align: left;
-            font: 10pt American Typewriter, serif;
-            font-size: 10pt;
+            font: 8pt American Typewriter, serif;
+           
             display: flex;
            gap: 15rem;
             img{
@@ -198,8 +198,8 @@ section{
              }
              h4{
                 text-align: right;
-                font: 10pt American Typewriter, serif;
-                font-size: 10pt;
+                font: 8pt American Typewriter, serif;
+          
                 display: flex;
                 gap: 5rem;
                 padding: 1rem;

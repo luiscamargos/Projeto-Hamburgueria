@@ -6,14 +6,12 @@ html{
   list-style: none;
   display: table-cell;
   vertical-align: bottom;
-  background-color: white;
+  background-color: #6c1818;
   padding: 0px;
 }
-/*.efeito-txt, .efeito-img{
+.efeito-txt, .efeito-img{
   visibility: hidden;
-}*/
-
-
+}
 body{
 color: rgba(255, 255, 255, 0.594); 
 padding: 0;
@@ -28,7 +26,7 @@ justify-content: space-around;
   }
 }
 nav ul{
-  background-color: #ffffff;
+  background-color: none;
   list-style: none;
   text-align: right;
   gap: 2rem;
@@ -54,7 +52,7 @@ nav ul{
     }
     a{
       text-decoration: none;
-      text-shadow:black 5px 5px 10px;
+      text-shadow:rgb(255, 255, 255) 5px 5px 10px;
       background-color: none;
       color:  none; 
       transition: all 0.9s;
@@ -62,7 +60,7 @@ nav ul{
       font: 15pt Copperplate Gothic;
       background-color:none ;
       border: none;
-      color: rgba(0, 0, 0, 0.594); 
+      color: rgb(255, 255, 255); 
       padding: 10px 20px;
       text-align: center;
       text-decoration: none;
@@ -121,23 +119,24 @@ section{
 }
 #inicio{
   background-image: url('Untitled\ \(Recuperado\).png');
-  text-align: center;
   color:rgb(248, 211, 162) ;
-  position: center;  
-  align-items: center;
+ a{
+  padding-inline-end: 20px;
+  color: aliceblue;
+ }
  h1{
-  font: 45pt Copperplate Gothic;
+  font: Arial, fantasy ;
+  font-size: 45px;
   color: aliceblue;
-  text-align: center;
- }
+  text-align: left;
+  padding-top: 150px;
+  padding-left: 100px;
+ 
  h2{
-  font: 30pt Copperplate Gothic;
-  color: aliceblue;
-  text-align: center;
+    color:#6c1818 ;
  }
-  img{
-    animation: rotate 30s linear infinite;
-    }
+ }
+
 }
   @keyframes rotate {
     from {
@@ -149,19 +148,17 @@ section{
     }
 }
 #sobre{
-  background-color: #ffffff;
+        background-color: #6c1818;
         padding: 15px;
-        color: black;
+        color: rgb(255, 255, 255);
         font: 8pt American Typewriter, serif;
+        text-align: center;
        
-
          h1{
-       
-          text-align: left;
-          font: 8pt American Typewriter, serif;
-         
+          text-align: center;
+          font: 13pt American Typewriter, serif;
           display: flex;
-         gap: 15rem;
+          gap: 15rem;
           img{
               width: 450px;
               height: 450px;
@@ -171,25 +168,26 @@ section{
         }
          
          h2{
-          text-align: right;
-          font: 8pt American Typewriter, serif;
-          
+        
+          text-align: center;
+          font: 12pt American Typewriter, serif;
           display: flex;
-          gap: 5rem;
-          padding: 1rem;
-
+          padding-left: 5rem;
+          gap: 150px;
+         
           img{
-              width: 400px;
-              height: 450px;
-                        
-        }
-         }
+              width: 300px;
+              height: 350px;     
+              border-radius: 20%;            
+             }
+            }
          h3{
-            text-align: left;
-            font: 8pt American Typewriter, serif;
-           
+            text-align: center;
+            font: 12pt American Typewriter, serif;
+           gap: 100px;
             display: flex;
-           gap: 15rem;
+            padding-left: 100px;
+        
             img{
                 width: 450px;
                 height: 450px;
@@ -197,11 +195,9 @@ section{
             }
              }
              h4{
-                text-align: right;
+                text-align: center;
                 font: 8pt American Typewriter, serif;
-          
                 display: flex;
-                gap: 5rem;
                 padding: 1rem;
       
                 img{
@@ -212,7 +208,7 @@ section{
              }
 }         
 #localizaçao{
-  background-color: #ffffff;
+  background-color: #6c1818;
   text-align: center;
   font: 30pt Impact, fantasy;
   color:  rgb(0, 0, 0);
@@ -231,7 +227,7 @@ section{
   a{
    
   text-decoration: none;
-  text-shadow:black 5px 5px 10px;
+  text-shadow:rgb(255, 255, 255) 5px 5px 10px;
   background-color: none;
   color:  none; 
   transition: all 0.9s;
@@ -260,13 +256,14 @@ a:hover{
 } 
 }
 #produtos{
-  background-color: #ffffff;
+  background-color:#6c1818;
   text-align: center;
   font: 30pt Impact, fantasy;
-  color:  rgb(0, 0, 0);
+  color: white;
   align-items: center;
   align-self: center;
   gap: 3rem;
+  padding-top: 100PX;
 h1{
   font: 35pt Copperplate Gothic;
 }
@@ -275,9 +272,11 @@ h1{
   }
   img{
     width: 255px;
-    height: 400px;
+    height: 300px;
     text-align: center;
     position: relative;
+    border-radius: 20%;
+    
 }
     .mouse-end{
       img{
@@ -290,13 +289,12 @@ h1{
   text-decoration: none;
   text-shadow:black 5px 5px 10px;
   background-color: none;
-  color:  none; 
   transition: all 0.9s;
   cursor: pointer;
   font: 15pt Copperplate Gothic;
   background-color:none ;
   border: none;
-  color: rgb(0, 0, 0); 
+  color: rgb(255, 254, 254); 
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -305,10 +303,11 @@ h1{
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 8px;
+  text-shadow: white 2px 1px 3px;
     }
 }
 #contato{
-  background-color: #ffffff;
+  background-color: #696969;
   text-align: center;
   font: 16pt Arial, fantasy;
   color:rgb(0, 0, 0) ;
@@ -320,7 +319,7 @@ h1{
   font: 16pt Arial, fantasy; ;
   text-align: left;
   }
-  h2{
+  h1{
     font: 20pt Arial, fantasy; 
     text-align: left;
     color: #000000;
@@ -335,7 +334,7 @@ h1{
   }
   
 }
-  a{
+a{
   text-decoration: none;
   text-shadow:black 5px 5px 10px;
   background-color: none;
@@ -355,8 +354,7 @@ h1{
   cursor: pointer;
   border-radius: 8px;
 
-  }
-
+}
 footer{
   background-color:none;
   color: #000000;
